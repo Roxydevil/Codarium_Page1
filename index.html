@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Name</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="search">
+            <a href="#">
+                <img src="img/search_box.png" />
+                <span class="searchLink">Поиск</span>
+                <span class="normalLink">По карте</span>
+            </a>
+        </div>
+        <div class="logo"></div>
+        <div class="phone">
+            <p>(044) 227-20-08</p>
+            <p>Информационная служба поддержки</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="left">
+            <h2><a href="#">Квартиры</a></h2>
+            <p><a href="#">Однокомнатные</a></p>
+            <p><a href="#">Двухкомнатные</a></p>
+            <p><a href="#">Трехкомнатные</a></p>
+            <p><a href="#">Четырехкомнатные</a></p>
+            <p><a href="#">Пятикомнатные</a></p>
+            <p><a href="#">Шестикомнатные</a></p>
+            <h2><a href="#">Цены</a></h2>
+            <h2><a href="#">Местоположение</a></h2>
+            <p><a href="#">Центр</a></p>
+            <p><a href="#">Пригород</a></p>
+            <p><a href="#">Левый берег</a></p>
+            <p><a href="#">Возле центра</a></p>
+            <p><a href="#">Правый берег</a></p>
+            <h2><a href="#">Район</a></h2>
+            <p><a href="#">Печерский</a></p>
+            <p><a href="#">Дарницкий</a></p>
+            <p><a href="#">Подольский</a></p>
+            <p><a href="#">Оболонский</a></p>
+            <p><a href="#">Днепровский</a></p>
+            <p><a href="#">Соломенский</a></p>
+            <p><a href="#">Голосеевский</a></p>
+            <p><a href="#">Святошинский</a></p>
+            <p><a href="#">Шевченковский</a></p>
+        </div>
+        <div class="central">
+            <div class="iconBlocks">
+                <div class="iconBlock">
+                    <img src="#" alt="Дома" />
+                    <a href="#" class="normalLink">Дома</a>
+                </div>
+                <div class="iconBlock">
+                    <img src="#" alt="Услуги" />
+                    <a href="#" class="normalLink">Услуги</a>
+                </div>
+                <div class="iconBlock">
+                    <img src="#" alt="Дисконт" />
+                    <a href="#" class="normalLink active">Дисконт</a>
+                </div>
+                <div class="iconBlock">
+                    <img src="#" alt="Правила" />
+                    <a href="#" class="normalLink">Правила</a>
+                </div>
+                <div class="iconBlock">
+                    <img src="#" alt="Новости" />
+                    <a href="#" class="normalLink">Новости</a>
+                </div>
+                <div class="iconBlock">
+                    <img src="#" alt="Мы" />
+                    <a href="#" class="normalLink">Мы</a>
+                </div>
+            </div>
+            <div class="text">
+                <h1>Клубная карта TimeDom</h1>
+            </div>
+            <div class="image"></div>
+            <div class="slider">
+                <div class="slider_absolute">
+                    <div class="sliderName"><h3>С картой вы получаете скидки на:</h3></div>
+                    <div class="tabs">
+                        <div class="tab"><h2>-5%</h2><p>Аппартаменты</p></div>
+                        <div class="tab"><h2>-8%</h2><p>Дома</p></div>
+                        <div class="tab active_tab"><h2>-10%</h2><p>Такси</p></div>
+                        <div class="tab"><h2>-12%</h2><p>Рестораны</p></div>
+                        <div class="tab"><h2>-15%</h2><p>Ночные клубы</p></div>
+                    </div>
+                    <div class="disconts">
+                        <div class="discont"></div>
+                        <div class="discont"></div>
+                        <div class="discont"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="anketa">
+                <h2>Заполните анкету:</h2>
+                <form>
+                    <label for="name">Имя и фамилия:</label>
+                    <input type="text" name="name" id="name" />
+                    <label for="mail">Электронная почта:</label>
+                    <input type="text" name="mail" id="mail" />
+                    <label for="phone">Контактный телефон*:</label>
+                    <input type="text" name="phone" id="phone" />
+                    <label for="birth">Дата рождения*:</label>
+                    <input type="text" name="birth" id="birth" />
+                    <label for="question">Какие квартиры Вы предпочитаете?</label>
+                    <input type="text" name="question" id="question" />
+                    <p>Вы пробовали бронировать квартиры через службу поддержки?</p>
+                    <div class="radioBlock">
+                        <label for="yes">Да</label>
+                        <input type="radio" name="radio" id="yes" value="yes">
+                        <label for="no">Нет</label>
+                        <input type="radio" name="radio" id="no" value="no">
+                    </div>
+                    <p>* Поля обязательные для заполнения</p>
+                    <input type="submit" value="Отправить" id="sendButton">
+                </form>
+                
+
+            </div>
+            <div class="finalText">
+                Спорт - эксперт 
+                <a href="#">
+                    Спортивные эксперты
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="rightBox"></div>
+            <div class="rightBox"></div>
+        </div>
+    </main>
+
+
+    <!--JavaScripts-->
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
